@@ -1,0 +1,51 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>1ed8ca5a-e6e7-453c-b5d0-3d95e2e9727c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Py_Pie_Chart_Tot.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Py_MatPlotLib</Name>
+    <RootNamespace>Py_MatPlotLib</RootNamespace>
+    <IsWindowsApplication>True</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Py_Bar_Chart_Tut.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Py_Histogram.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Py_MatPlotLib.py" />
+    <Compile Include="Py_Pie_Chart_Tot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Py_Stack_Plots.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Py_Sub_Plot_Tut.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_Example", "Py_Example\Py_Example.pyproj", "{609A504A-2ECA-402C-AE71-EF16632B3DF4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_OpenCV", "Py_OpenCV\Py_OpenCV.pyproj", "{5FA19641-CEC7-4E48-BB54-F0086E269DB6}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_MatPlotLib", "Py_MatPlotLib\Py_MatPlotLib.pyproj", "{1ED8CA5A-E6E7-453C-B5D0-3D95E2E9727C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_Kyvy", "Py_Kyvy\Py_Kyvy.pyproj", "{1D73F5B1-6472-4FDC-AA77-72E0EBE61229}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_QT5", "Py_QT5\Py_QT5.pyproj", "{E5ED3A36-543E-4CE8-A4CB-CBF61060915A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_Basic_Networking", "Py_Basic_Networking\Py_Basic_Networking.pyproj", "{2F78B243-388C-4D5D-A344-77E954050776}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_list_map", "Py_list_map\Py_list_map.pyproj", "{4ED2C435-F1FB-4C5B-B1D0-0F8176267000}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_Car", "Py_Car\Py_Car.pyproj", "{29C6E256-B880-4732-96FA-AE442F6F3E9D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_Excel_Examples", "Py_Excel_Examples\Py_Excel_Examples.pyproj", "{F72A1E37-7007-4EC2-9744-EABF175EB1C1}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_game", "Py_game\Py_game.pyproj", "{34B8A54D-EB8A-4238-B19C-E9C6E972D50B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_pySimpleGUI", "Py_pySimpleGUI\Py_pySimpleGUI.pyproj", "{461424C9-1C99-4D42-881E-C22B79C335AF}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Py_Music", "Py_Music\Py_Music.pyproj", "{6ECA5FA4-BB25-4348-8380-39CF45A7A7E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{609A504A-2ECA-402C-AE71-EF16632B3DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609A504A-2ECA-402C-AE71-EF16632B3DF4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA19641-CEC7-4E48-BB54-F0086E269DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA19641-CEC7-4E48-BB54-F0086E269DB6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED8CA5A-E6E7-453C-B5D0-3D95E2E9727C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED8CA5A-E6E7-453C-B5D0-3D95E2E9727C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D73F5B1-6472-4FDC-AA77-72E0EBE61229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D73F5B1-6472-4FDC-AA77-72E0EBE61229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5ED3A36-543E-4CE8-A4CB-CBF61060915A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5ED3A36-543E-4CE8-A4CB-CBF61060915A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F78B243-388C-4D5D-A344-77E954050776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F78B243-388C-4D5D-A344-77E954050776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED2C435-F1FB-4C5B-B1D0-0F8176267000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED2C435-F1FB-4C5B-B1D0-0F8176267000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C6E256-B880-4732-96FA-AE442F6F3E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C6E256-B880-4732-96FA-AE442F6F3E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72A1E37-7007-4EC2-9744-EABF175EB1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72A1E37-7007-4EC2-9744-EABF175EB1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B8A54D-EB8A-4238-B19C-E9C6E972D50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B8A54D-EB8A-4238-B19C-E9C6E972D50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461424C9-1C99-4D42-881E-C22B79C335AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461424C9-1C99-4D42-881E-C22B79C335AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ECA5FA4-BB25-4348-8380-39CF45A7A7E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ECA5FA4-BB25-4348-8380-39CF45A7A7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7BCF754-A9E2-489C-974B-BBE8F0DA9C04}
+	EndGlobalSection
+EndGlobal
